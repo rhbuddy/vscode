@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validation Form</title>
+</head>
+<body>
+
+    <h2>Contact Information</h2>
+
+    <form>
+        <label for="user_email">Email Address:</label><br>
+        <input type="email" id="user_email" name="user_email" required placeholder="example@domain.com">
+        <br><br>
+
+        <label for="user_phone">Phone Number (10 digits):</label><br>
+        <input type="tel" id="user_phone" name="user_phone" 
+               pattern="[0-9]{10}" 
+               required 
+               placeholder="1234567890">
+        <br>
+        <small>Format: 10 digits only</small>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

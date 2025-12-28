@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selection Form Example</title>
+<body>
+
+    <h2>User Preferences Form</h2>
+
+    <form>
+        
+        <div class="form-group">
+            <label>What is your preferred contact method?</label>
+            <span class="options">
+                <input type="radio" id="email" name="contact" value="email" checked>
+                <label for="email" style="display:inline;">Email</label>
+            </span>
+            <span class="options">
+                <input type="radio" id="phone" name="contact" value="phone">
+                <label for="phone" style="display:inline;">Phone</label>
+            </span>
+            <span class="options">
+                <input type="radio" id="mail" name="contact" value="mail">
+                <label for="mail" style="display:inline;">Post Mail</label>
+            </span>
+        </div><br><br>
+
+        <div class="form-group">
+            <label>Which programming languages do you know?</label>
+            <span class="options">
+                <input type="checkbox" id="html" name="skills" value="html">
+                <label for="html" style="display:inline;">HTML</label>
+            </span>
+            <span class="options">
+                <input type="checkbox" id="css" name="skills" value="css">
+                <label for="css" style="display:inline;">CSS</label>
+            </span>
+            <span class="options">
+                <input type="checkbox" id="js" name="skills" value="javascript">
+                <label for="js" style="display:inline;">JavaScript</label>
+            </span>
+            <span class="options">
+                <input type="checkbox" id="python" name="skills" value="python">
+                <label for="python" style="display:inline;">Python</label>
+            </span>
+        </div><br><br>
+
+        <button type="submit">Submit Preferences</button>
+
+    </form>
+
+</body>
+</html>
